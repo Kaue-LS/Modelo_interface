@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+}
+#Image{
+    position: absolute;
+    right:0;
+    width: 71%;
+    height: 683px;
+}
+#Screen{
+    
+    width: 29%;
+    height:683px;
+    background-color:#efefef;
+}
+#superior_text{
+    position: relative;
+    display: flex;
+    top: 3rem;
+    height: 5rem;
+}
+#text{
+    margin-left: 2rem;
+    width: 30px;
+}
+#text2{
+    display: inline-flex;
+    margin-left: 13rem;
+}
+#global{
+    margin-top: -7px;
+    height: 30px;
+}
+h2{ 
+    font-size: 14px;
+}
+h1{
+    font-size: 25px;
+    padding: 15px 10px;
+}
+#Description{
+    left: 2rem;
+    position: relative;
+    top: 8rem;
+}
+.Block{
+    position: relative;
+    background-color:#dddddd;
+    border: none;
+    width: 80%;
+    left: 0.5rem;
+    display: flex;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+#check{
+    position: relative;
+    left: 0.9rem;
+    display: flex;
+}
+p{
+    font-size: 16px;
+    position: relative;    
+    left: 5px;
+}
+#Button{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    border: #dddddd 5px solid;
+    position: relative;
+    top: 4rem;
+    left: 8rem;
+}
+
+a{
+    position: relative;
+    top: 19rem;
+    left: 2rem;
+
+    color: #b3b2b2;
+    font-size: 12px;
+    text-decoration: none;
+}
+#version{
+    position: relative;
+    top: 18rem;
+    left: 19rem;
+
+    color: #b3b2b2;
+    font-size: 12px;
+}
+
+@media (max-width:800px){
+    #Screen{
+        width: 60%;
+    }
+    #Image{
+        background-image: url('/static/lol.png');
+        background-size: 10% 10%;
+        
+        z-index: -1;
+    }
+    #text2{
+        margin-left: 6rem;
+    }
+    #Button{
+        left: 4rem;
+    }
+    a h3{
+        margin-left:1rem;
+        font-size: 12px;
+    }
+    .Block{
+        width: 75%;
+    }
+    #version{
+        top:17rem ;
+        left: 10rem;
+    }
+
+}

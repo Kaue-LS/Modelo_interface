@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #5e32a8;
+    color: #fff;
+}
+
+.container {
+    max-width: 60%;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+#title {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+#description {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#survey{
+    background-color: #331b5c;
+    margin-left: -10rem;
+    border-radius: 5px;
+    width: 65rem;
+    padding: 2rem 2rem;
+    box-shadow: 5px 5px 5px #942cf7;
+}
+
+#survey input[type='text'], input[type='email'], input[type='number'] {
+    display: flex;
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+select{
+    width:100%;
+    height: 2.5rem;
+
+}
+#dropdown{
+    margin-top: 10px;
+}
+.radioButtons  {
+    margin:22px 0px ;
+}
+input[type='radio']{
+    margin-top: 12px;
+}
+.checkButtons p{
+    padding:5px 0px ;
+
+}
+.checkButtons input[type='checkbox']{
+    display: inline-flex;
+
+}
+.textArea{
+    padding: 20px 0px;
+}
+#another-series{
+    border-radius: 5px;
+    resize: vertical;
+    margin-top: 10px;
+    height: 5rem;
+    width: 100%;
+}
+
+#submit{
+    border-radius: 5px;
+    color: white;
+    background-color: #180b2e;
+    font-size: 18px;
+    width: 100%;
+    height: 2.5rem;
+}
+   

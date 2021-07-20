@@ -1,0 +1,14 @@
+@media(max-width:800px){
+    #survey{
+        margin-left:-6rem;
+        width: 25rem;
+        padding: 2rem 4rem;
+    }
+    .checkButtons  input[type='checkbox']{
+        display: grid;
+
+    }
+    
+
+    
+}
