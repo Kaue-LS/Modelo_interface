@@ -34,6 +34,7 @@ body {
     width: 65rem;
     padding: 2rem 2rem;
     box-shadow: 5px 5px 5px #942cf7;
+    margin-bottom: 5rem;
 }
 
 #survey input[type='text'], input[type='email'], input[type='number'] {
